@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PACER | RUN AT YOUR PACE</title>
+<!-- FAVICON -->
+<link rel="icon" type="image/png" href="./assets/pacer_logo.png">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="logo">
+      <img src="./assets/pacer_logo.png" alt="PACER">
+    </a>
+
+    <nav class="main-nav">
+      <a href="#brand" class="nav-link">BRAND</a>
+      <a href="#cities" class="nav-link">CITIES</a>
+      <a href="#community" class="nav-link">COMMUNITY</a>
+      <a href="#store" class="nav-link store-nav">
+  STORE
+  <span class="store-new-badge">NEW!!</span>
+</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button search-open" type="button" aria-label="검색">
+        <svg viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.6">
+          <circle cx="10.8" cy="10.8" r="7.5"/>
+          <path d="m16.5 16.5 5 5"/>
+        </svg>
+      </button>
+
+      <button class="icon-button menu-open" type="button" aria-label="메뉴">
+        <svg viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="1.6">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- FULLPAGE : 총 5개 화면 -->
+  <main class="fullpage" id="fullpage">
+
+    <!-- 00. MAIN BANNER -->
+    <section class="page page-home" id="home">
+
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+
+          <!-- BANNER 01 -->
+          <div class="swiper-slide hero-slide hero-run">
+            <img class="hero-typography-img"
+              src="./assets/main_font.png"
+              alt="" aria-hidden="true">
+
+            <img class="hero-runner"
+              src="./assets/main_banner01.png"
+              alt="PACER Running">
+          </div>
+
+          <!-- BANNER 02 -->
+          <div class="swiper-slide hero-slide hero-visual">
+            <img class="hero-background-photo"
+              src="./assets/main_banner02.png"
+              alt="PACER Visual 02">
+
+            <img class="hero-pacer-icon"
+              src="./assets/pacer_icon.png"
+              alt="" aria-hidden="true">
+          </div>
+
+          <!-- BANNER 03 -->
+          <div class="swiper-slide hero-slide hero-visual">
+            <img class="hero-background-photo"
+              src="./assets/main_banner03.png"
+              alt="PACER Visual 03">
+          </div>
+
+          <!-- BANNER 04 -->
+          <div class="swiper-slide hero-slide hero-four">
+
+            <div class="hero-four-side hero-four-left">
+              <span>S</span>
+              <span>T</span>
+              <span>A</span>
+              <span>R</span>
+              <span>T</span>
+            </div>
+
+            <div class="hero-four-center">
+              <img class="hero-four-image"
+                src="./assets/main_banner04.png"
+                alt="PACER Runner">
+
+              <div class="hero-four-your">YOUR</div>
+            </div>
+
+            <div class="hero-four-side hero-four-right">
+              <span>P</span>
+              <span>A</span>
+              <span>C</span>
+              <span>E</span>
+              <div class="hero-four-bars">
+                <i></i><i></i><i></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- MAIN BANNER PAGINATION -->
+      <div class="bottom-controls">
+        <div class="hero-pagination-wrap">
+          <span class="hero-current">01</span>
+          <span>/</span>
+          <span class="hero-total">04</span>
+
+          <div class="hero-bars">
+            <button class="hero-bar active" data-slide="0"
+              aria-label="배너 1"></button>
+            <button class="hero-bar" data-slide="1"
+              aria-label="배너 2"></button>
+            <button class="hero-bar" data-slide="2"
+              aria-label="배너 3"></button>
+            <button class="hero-bar" data-slide="3"
+              aria-label="배너 4"></button>
+          </div>
+        </div>
+
+        <button class="next-section" type="button" data-next="brand">
+          <span>01</span><span>/</span><span>04</span>
+          <span class="line-arrow"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- 01. BRAND -->
+    <section class="page page-brand-intro" id="brand">
+
+      <div class="brand-intro-content">
+        <div class="brand-intro-left">
+          <p class="eyebrow">ABOUT PACER</p>
+          <h2 class="brand-title">
+            <span>BRAND</span>
+            <strong>INTRODUCTION</strong>
+          </h2>
+
+          <p class="brand-description">
+            PACER는 기록과 순위보다 각자의 페이스와 완주 과정에 집중하는<br>
+            도시형 러닝 브랜드다. 빠르게 달리는 것보다 자신만의 리듬을 찾고,<br>
+            끝까지 움직이는 경험을 중요하게 생각한다.
+          </p>
+
+          <p class="brand-description">
+            서로 다른 속도와 목적을 가진 사람들이 각자의 도시 안에서
+            자연스럽게 연결되고,<br>
+            달리는 시간이 일상의 일부가 될 수 있도록 다양한 경험을 만들어나간다.
+          </p>
+
+          <p class="brand-slogan">
+            WE DON'T <em>RACE</em>, WE <em>PACE</em>
+          </p>
+        </div>
+
+
+<div class="brand-intro-right">
+
+  <!-- S자 연결 라인 -->
+  <svg class="brand-route-line"
+       viewBox="0 0 600 660"
+       preserveAspectRatio="none"
+       aria-hidden="true">
+
+    <path
+      d="
+        M 90 -20
+        L 90 105
+        Q 90 155 140 155
+        L 460 155
+        Q 550 155 550 245
+        Q 550 335 460 335
+        L 140 335
+        Q 50 335 50 425
+        Q 50 515 140 515
+        L 460 515
+        Q 550 515 550 605
+        L 550 680
+      "
+      fill="none"
+      stroke="#777"
+      stroke-width="1.2"
+    />
+  </svg>
+
+  <!-- 01 PACE -->
+  <div class="brand-step step01">
+    <span class="step-circle"></span>
+    <div class="step-text">
+      <strong>01 PACE</strong>
+      <small>각자의 속도로</small>
+    </div>
+  </div>
+
+  <!-- 02 RHYTHM -->
+  <div class="brand-step step02">
+    <div class="step-text">
+      <strong>02 RHYTHM</strong>
+      <small>나만의 리듬</small>
+    </div>
+    <span class="step-circle"></span>
+  </div>
+
+  <!-- 03 CITY -->
+  <div class="brand-step step03">
+    <span class="step-circle"></span>
+    <div class="step-text">
+      <strong>03 CITY</strong>
+      <small>도심 속에서</small>
+    </div>
+  </div>
+
+  <!-- 04 FINISH -->
+  <div class="brand-step step04">
+    <div class="step-text">
+      <strong>04 FINISH</strong>
+      <small>끝까지 나아가기</small>
+    </div>
+    <span class="step-circle"></span>
+  </div>
+
+</div>
+
+      </div>
+
+      <button class="next-section page-next"
+        type="button" data-next="cities">
+        <span>01</span><span>/</span><span>04</span>
+        <span class="line-arrow"></span>
+      </button>
+    </section>
+
+    <!-- 02. CITIES -->
+
+<!-- ========================================
+     CITIES 01 : INTRO
+======================================== -->
+<section class="page page-cities cities-intro" id="cities">
+
+  <div class="cities-intro-inner">
+    <div class="cities-intro-title">
+      <h2 class="cities-run">RUN</h2>
+      <div class="cities-title-line">
+        <span>THE</span>
+        <strong>CITY.</strong>
+      </div>
+    </div>
+
+    <div class="cities-intro-description">
+      <p>
+        도시를 단순한 배경이 아닌 하나의 러닝 공간으로 바라본다.<br>
+        부산의 해안, 강변, 야간 풍경처럼 서로 다른 환경을 러닝 루트로 구분하고,<br>
+        각 코스의 거리와 특성, 위치를 지도 위에 시각화하였다.
+      </p>
+
+      <p>
+        사용자는 부산이라는 하나의 도시 안에서도 자신의 목적과 페이스에 맞는 루트를 선택할 수 있으며,<br>
+        각 코스를 통해 서로 다른 도시의 리듬을 경험할 수 있다. PACER는 이를 통해 기록이나 속도보다<br>
+        자신에게 맞는 방식으로 도시를 달리는 경험을 제안한다.
+      </p>
+    </div>
+
+    <div class="cities-route-index">
+      <div class="cities-route-index-item">
+        <span>01</span>
+        <small>COAST</small>
+      </div>
+      <div class="cities-route-index-item">
+        <span>02</span>
+        <small>RIVER</small>
+      </div>
+      <div class="cities-route-index-item">
+        <span>03</span>
+        <small>URBAN</small>
+      </div>
+      <div class="cities-route-index-item">
+        <span>04</span>
+        <small>NIGHT</small>
+      </div>
+    </div>
+
+    <div class="cities-scroll">
+      <span>SCROLL TO EXPLORE</span>
+      <span class="cities-scroll-arrow"></span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ========================================
+     CITIES 02 : ROUTE MAP
+======================================== -->
+<section class="page page-cities cities-map" id="cities-map">
+  <img
+    src="./assets/cities_02.png"
+    alt="부산의 네 가지 러닝 코스를 소개하는 지도"
+    class="cities-map-image"
+  >
+</section>
+
+
+<!-- ========================================
+     CITIES 03 : GWANGALLI DETAIL
+======================================== -->
+<section class="page page-cities cities-detail" id="cities-detail">
+
+  <div class="cities-detail-inner">
+
+    <!-- LEFT IMAGE -->
+    <div class="cities-detail-left">
+      <img
+        src="./assets/cities_03.png"
+        alt="광안리 러닝 코스 상세 지도"
+        class="cities-detail-image"
+      >
+    </div>
+
+    <!-- RIGHT INFORMATION / 4 ROWS x 2 COLUMNS -->
+    <div class="cities-detail-right">
+
+      <!-- ROW 01 -->
+      <div class="cities-info-row">
+        <div class="cities-info-description">
+          <span class="cities-info-number">01</span>
+          <h3>광안대교와 해변을 따라<br>이어지는 해안 러닝 코스</h3>
+          <p>
+            탁 트인 바다와 광안대교를 가장 가까이에서<br>
+            마주하며 달리는, 부산을 대표하는 러닝 루트입니다.
+          </p>
+        </div>
+        <div class="cities-info-data">
+          <span>ROUTE TYPE</span>
+          <strong>COAST</strong>
+        </div>
+      </div>
+
+      <!-- ROW 02 -->
+      <div class="cities-info-row">
+        <div class="cities-info-description">
+          <span class="cities-info-number">02</span>
+          <h3>바다와 도시의 리듬을<br>함께 느낄 수 있는 루트</h3>
+          <p>
+            부산의 활기찬 도시 풍경과 잔잔한 파도 소리가<br>
+            나란히 이어지는, 도시와 자연이 공존하는 코스입니다.
+          </p>
+        </div>
+        <div class="cities-info-data">
+          <span>LEVEL</span>
+          <strong>EASY</strong>
+        </div>
+      </div>
+
+      <!-- ROW 03 -->
+      <div class="cities-info-row">
+        <div class="cities-info-description">
+          <span class="cities-info-number">03</span>
+          <h3>석양과 야경이 가장 잘 어울리는<br>코스로 추천하는 시간</h3>
+          <p>
+            광안리의 아름다운 해안 풍경을 따라 달리며<br>
+            낮과 밤의 서로 다른 분위기를 경험할 수 있습니다.
+          </p>
+        </div>
+        <div class="cities-info-data">
+          <span>BEST TIME</span>
+          <strong>SUNSET / NIGHT</strong>
+        </div>
+      </div>
+
+      <!-- ROW 04 -->
+      <div class="cities-info-row">
+        <div class="cities-info-description">
+          <span class="cities-info-number">04</span>
+          <h3>기록보다 자신의 페이스로<br>완주하는 경험에 집중</h3>
+          <p>
+            아름다운 풍경 속에서, 빠름보다 지속하는 즐거움을<br>
+            느낄 수 있는 PACER의 러닝 철학이 담긴 코스
+          </p>
+        </div>
+        <div class="cities-info-data">
+          <span>PACE</span>
+          <strong>YOUR PACE</strong>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <button class="next-section page-next"
+    type="button" data-next="community">
+    <span>02</span><span>/</span><span>04</span>
+    <span class="line-arrow"></span>
+  </button>
+<!-- CITIES PAGE INDICATOR -->
+<div class="cities-indicator">
+  <button type="button" class="cities-dot active"
+    data-cities-target="cities" aria-label="CITIES 01"></button>
+
+  <button type="button" class="cities-dot"
+    data-cities-target="cities-map" aria-label="CITIES 02"></button>
+
+  <button type="button" class="cities-dot"
+    data-cities-target="cities-detail" aria-label="CITIES 03"></button>
+</div>
+</section>
+
+
+
+<!-- ========================================
+     03. COMMUNITY
+======================================== -->
+<section class="page page-community" id="community">
+  <img
+    src="./assets/banner_03.png"
+    alt="PACER COMMUNITY"
+    class="section-full-image"
+  >
+</section>
+
+
+<!-- ========================================
+     04. STORE
+======================================== -->
+<section class="page page-store" id="store">
+
+  <img
+    src="./assets/banner_04.png"
+    alt="PACER STORE"
+    class="section-full-image"
+  >
+
+  <p class="copyright">
+    © 2026 Kim Gyungeun. All Rights Reserved.
+  </p>
+
+</section>
+
+
+  </main>
+
+<!-- PACER CAMPAIGN POPUP -->
+<div class="pacer-popup-overlay" id="pacerPopup">
+  <div class="pacer-popup" role="dialog"
+       aria-modal="true"
+       aria-labelledby="popupTitle">
+
+    <div class="pacer-popup-top">
+      <span>PACER / RUNNING CLUB</span>
+      <button type="button" class="pacer-popup-close"
+              aria-label="팝업 닫기">×</button>
+    </div>
+
+    <div class="pacer-popup-content">
+      <span class="pacer-popup-label">RUN AT YOUR PACE</span>
+
+      <h2 id="popupTitle">
+        FIND YOUR<br>
+        <em>PACE.</em>
+      </h2>
+
+      <p>
+        도시의 모든 길이<br>
+        너만의 러닝 트랙이 된다.
+      </p>
+
+      <button type="button" class="pacer-popup-cta">
+        EXPLORE THE CITY <span>↗</span>
+      </button>
+    </div>
+
+    <div class="pacer-popup-bottom">
+      <label>
+        <input type="checkbox" id="popupToday">
+        오늘 하루 보지 않기
+      </label>
+      <button type="button" class="pacer-popup-close">
+        CLOSE
+      </button>
+    </div>
+
+  </div>
+</div>
+
+  <!-- SEARCH -->
+  <div class="search-overlay" hidden>
+    <div class="overlay-top">
+      <span>SEARCH PACER</span>
+      <button class="close-btn search-close"
+        type="button" aria-label="검색 닫기">×</button>
+    </div>
+    <form class="search-form">
+      <input type="search" placeholder="Search PACER..."
+        aria-label="검색어 입력">
+      <button type="submit">SEARCH</button>
+    </form>
+    <p class="search-info">BRAND, CITIES, COMMUNITY, STORE 검색</p>
+  </div>
+
+  <!-- HAMBURGER -->
+  <div class="menu-overlay" hidden>
+    <button class="close-btn menu-close"
+      type="button" aria-label="메뉴 닫기">×</button>
+
+    <nav class="overlay-nav">
+      <a href="#home">HOME</a>
+      <a href="#brand">BRAND</a>
+      <a href="#cities">CITIES</a>
+      <a href="#community">COMMUNITY</a>
+      <a href="#store">STORE</a>
+    </nav>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
